@@ -1,0 +1,23 @@
+background-color: grey;
+
+.container {
+  background-color: grey;
+}
+
+#notebook-container {
+  background-color: grey;
+}
+
+prompt_container {
+  background-color: lightcorral;
+  border: 1px solid black;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.CodeMirror-lines {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.selected {
+  border-radius: 20px 0px 0px 20px;
+}
