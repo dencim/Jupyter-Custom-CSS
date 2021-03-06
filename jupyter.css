@@ -1,6 +1,9 @@
 h1 {
-  color: rgb(0, 141, 7);
-  -webkit-text-stroke: 0.5px white;
+  font: 15px sans-serif;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 div.output_stdout pre {
