@@ -1,15 +1,32 @@
-background-color: grey;
+h1 {
+  color: rgb(0, 141, 7);
+  -webkit-text-stroke: 0.5px white;
+}
 
-.container {
-  background-color: grey;
+div.output_stdout pre {
+  color: white;
+}
+
+body > #header > #header-container,
+body #menubar-container {
+  background-color: orange;
+}
+
+div.output_area pre {
+  color: white;
+}
+
+#notebook_panel,
+#site {
+  background-color: #a9a9a9;
 }
 
 #notebook-container {
-  background-color: grey;
+  background-color: #a9a9a9;
 }
 
-prompt_container {
-  background-color: lightcorral;
+.prompt_container {
+  background-color: lightcoral;
   border: 1px solid black;
   border-radius: 20px 0px 0px 20px;
 }
@@ -18,6 +35,8 @@ prompt_container {
   background-color: lightgrey;
   border: 1px solid black;
 }
-.selected {
+div.cell.selected {
   border-radius: 20px 0px 0px 20px;
+  background-color: rgb(39, 39, 39);
+  border: none;
 }
